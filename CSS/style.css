@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    flex-wrap: nowrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #888888;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 57px;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:  rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 9px 2px #c7c7c7;
+    -moz-box-shadow: 0px 0px 9px 2px #8d8c8c;
+    box-shadow: 0px 0px 9px 2px #525151;
+    padding: 0px 40px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7%;
+}
+
+.header_itens{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.opcoes {
+    /* padding-left: 80%; */
+    align-self: stretch;
+}
+
+.inicio {
+    width: 100%;
+}
+
+.img_1 {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 0;
+}
+
+.incio .controls {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+}
+
+.col_img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.loft {
+    width: 400px;
+    background: #EEEEEE;
+    -webkit-box-shadow: 0px 0px 9px 2px #c7c7c7;
+    -moz-box-shadow: 0px 0px 9px 2px #8d8c8c;
+    box-shadow: 0px 0px 9px 2px #525151;
+}
+
+.loft img {
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-size: large;
+}
+
+.price button {
+    width: 70px;
+    height: 28px; 
+    border-radius: 14px;
+    color: white;
+    border-style: none;
+    font-size: large;
+}
+
+#square_new {
+    background: #51D275;
+}
+
+#square_sale {
+    background: #DC9730;
+}
+
+.loft p {
+    text-align: justify;
+    line-height: 20px;
+    padding: 0px 40px 20px 40px;
+    font-size: 13px;
+    color: #616161;
+}
+
+#img1 {
+    padding-bottom: 90px;
+}
+
+.lin_img {
+    width: 100%;
+}
+
+.lin_img p {
+    font-size: xx-large;
+}
+
+.lin_img img {
+    width: 100%;
+    padding: 15px 0px;
+    opacity: 0.6;   
+}
+
+.estilosLoft {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px #7575759a;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: rgba(5, 5, 5, 0.87);
+}
+
+footer .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mapa {
+    padding:  20px 0;
+}
+
+footer .contato .social{
+    display: flex;
+    /* text-align: justify; */
+    line-height: 40px;
+}
+.social {
+    width: 100%;
+    /* padding: 10px 0px; */
+}
+
+footer .container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1010px) {
+    main .lin_img {
+        padding: 50px;
+        justify-content: center;
+    }
+}
