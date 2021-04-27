@@ -16,6 +16,26 @@ body {
     color: #888888;
 }
 
+.dark-mode {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.dark-mode header {
+    background-color: rgb(27, 27, 27);
+    border: black;
+}
+
+.dark-mode .loft {
+    background: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode .loft p {
+    color: rgb(209, 209, 209);
+}
+
+
 main{
     display: flex;
     flex-direction: column;
