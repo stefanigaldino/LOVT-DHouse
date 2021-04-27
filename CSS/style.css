@@ -62,6 +62,34 @@ header {
     align-content: center;
     justify-content: space-between;
 }
+form {
+    width: 300px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+form input,
+form textarea {
+    width: 300px;
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    background-color: #dcbd30;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Ropa Sans', sans-serif;
+    border-radius: 20px;
+    font-size: 20px;
+}
 
 .logo {
     width: 7%;
